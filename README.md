@@ -16,3 +16,22 @@ The implementation is based on the repo [GraphSaint](https://github.com/GraphSAI
 - scipy == 1.6.2
 - scikit-learn == 0.24.2
 - pyyaml == 5.4.1
+
+### before running
+We have a cython module which need compilation before training can start. Compile the module by running the following from the root directory:
+
+```
+python setup.py build_ext --inplace
+```
+
+### baseline
+
+```
+python main.py --data_prefix ${relative_data_dir} --train_config ./train_config/no_graph.yml --no_graph
+```
+
+### using context information
+
+```
+python main.py --data_prefix ${relative_data_dir} --train_config ./train_config/gat_192_8_with_graph.yml
+```
