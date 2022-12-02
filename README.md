@@ -1,10 +1,10 @@
 # Stego-SandBox
 
-## data 
+## dataset
 [download url](https://cloud.tsinghua.edu.cn/f/534297a363764ad698d8/?dl=1)
 
 
-## codes
+## methods
 The implementation is based on the repo [GraphSaint](https://github.com/GraphSAINT/GraphSAINT)
 
 ### requirements
@@ -35,3 +35,10 @@ python main.py --data_prefix ${relative_data_dir} --train_config ./train_config/
 ```
 python main.py --data_prefix ${relative_data_dir} --train_config ./train_config/gat_192_8_with_graph.yml
 ```
+
+### relative_data_dir
+decompress the downloaded data, then relative_data_dir can be any one of the sub_dir, for example: 
+```
+relative_data_dir=./data/reddit-ac-1-onlyends_with_isolated_bi_10percent_hop1
+```
+
