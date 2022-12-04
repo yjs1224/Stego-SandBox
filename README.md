@@ -27,17 +27,17 @@ python setup.py build_ext --inplace
 ### baseline
 
 ```
-python main.py --data_prefix ${relative_data_dir} --train_config ./train_config/no_graph.yml --no_graph
+python main.py --data_prefix ${relative_data_dir} --train_config ./train_config/no_graph.yml --no_graph --repeat_time 1 
 ```
 
 ### using context information
 
 ```
-python main.py --data_prefix ${relative_data_dir} --train_config ./train_config/gat_192_8_with_graph.yml
+python main.py --data_prefix ${relative_data_dir} --train_config ./train_config/gat_192_8_with_graph.yml --repeat_time 1
 ```
 
 ### relative_data_dir
-decompress the downloaded data, then relative_data_dir can be any one of the sub_dir, for example: 
+decompress the downloaded data, then relative_data_dir can be any one of the sub_dir, for example:  
 ```
 relative_data_dir=./data/reddit-ac-1-onlyends_with_isolated_bi_10percent_hop1
 ```
