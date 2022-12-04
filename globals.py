@@ -46,8 +46,8 @@ parser.add_argument("--repeat_time", default=10, type=int)
 parser.add_argument("--sentence_embed", default="cnn", type=str)
 parser.add_argument("--hidden_dim", type=int, default=-1)
 parser.add_argument("--no_graph", default=False,action="store_true",)
-# args_global = parser.parse_args()
-args_global = parser.parse_args(["--data_prefix=./data/reddit-ac-1-onlyends_with_isolated_bi_10percent_hop1", "--gpu=0","--train_config=./train_config/gat_192_8_with_graph.yml", "--repeat_time=1",
+args_global = parser.parse_args()
+# args_global = parser.parse_args(["--data_prefix=./data/reddit-ac-1-onlyends_with_isolated_bi_10percent_hop1", "--gpu=0","--train_config=./train_config/gat_192_8_with_graph.yml", "--repeat_time=1",
                                ])
 # print(args_global.hidden_dim)
 
