@@ -44,14 +44,4 @@ relative_data_dir=./data/reddit-ac-1-onlyends_with_isolated_bi_10percent_hop1
 
 
 ## For details of the methods and results, please refer to our paper.
-```
-@ARTICLE{9970400,
-  author={Yang, Jinshuai and Yang, Zhongliang and Zou, JiaJun and Tu, Haoqin and Huang, Yongfeng},
-  journal={IEEE Transactions on Information Forensics and Security}, 
-  title={Linguistic Steganalysis Towards Social Network}, 
-  year={2022},
-  volume={},
-  number={},
-  pages={1-1},
-  doi={10.1109/TIFS.2022.3226909}}
-```
+
